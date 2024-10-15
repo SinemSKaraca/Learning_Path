@@ -1,0 +1,29 @@
+* Median serinin ortanca değeridir ve her zaman yüzde 50'lik çeğrekle temsil edilir.
+
+* Median'ın ortalamadan küçük olması dağılımın sağa çarpık (positive-skew) olduğunu gösterir. mode < median < mean
+  Simetrik bir dağılımda median = mean = mode'dur.
+
+* Parameter vs Argument:
+    ** Parametre, fonksiyon içindeki değişkenlerdir.
+    ** Argüman, fonskiyon içindeki değişkenlerin alacağı değerlerdir.
+
+* Bir satırda en az bir tane NaN değer varsa o satır komple silinir. Bu nedenle, veri kaybetmek
+  istemediğimiz zaman direkt silmek yerine RE-ASSINGMENT (baskılama) işlemi yapıyoruz.
+
+* Aykırı değerleri yakalayabilmek için değerlerin ortalamasını vs. yakalayabiliyor olmamız lazım.
+  Bu nedeneler numerik sütunlar üstünde çalışıyoruz!!!
+
+* Describe fonksiyonu sadece nümerik değerlerde çalışır.
+
+* Standart Sapma / Ortalama = Değişim katsayısı (coefficent of variation)
+
+* Üzerinde çalıştığımız veri seti büyükse silme işlemi çok zararlı olmayabilir fakat küçük veri setlerinde
+  silme işlemi yaparken dikkat etmek gerek. Çünkü çok fazla verinin kaybolmasına sebep olabilir.
+
+* mode işlemini hem kategorik hem de numerik değişkenler için kullanabiliriz.
+
+* KNN methodunda komşularına bakarak incelediğimiz değerin sınıfını tahmin etmeye çalışıyor.
+
+** Ölçeklendirme metriklerilini araştır!!
+
+*
