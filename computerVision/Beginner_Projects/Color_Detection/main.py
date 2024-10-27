@@ -4,7 +4,7 @@ from util import get_limits
 
 yellow = [0, 255, 255]  # yellow in BGR colorspace
 
-cap = cv.VideoCapture(0) # Reach to the camera that is connected to the PC
+cap = cv.VideoCapture(0) # Access to the camera that is connected to the PC (webcam)
 while True:
     ret, frame = cap.read()
 
